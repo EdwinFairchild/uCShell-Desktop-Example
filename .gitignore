@@ -1,0 +1,4 @@
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-uCShell-Desktop-Example-/

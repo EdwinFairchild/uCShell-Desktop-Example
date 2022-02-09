@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "ucshell_config.h": "c",
+        "ucshell.h": "c"
+    }
+}
