@@ -31,6 +31,7 @@ int main(void)
     {
         //TODO: some of the bugs could be scanf related
         //streaming on windows does not work
+        //perhaps a custom gui for uCShell would be cool
         if(!is_uCShell_streaming())
         scanf("%c",&char_received);
         
