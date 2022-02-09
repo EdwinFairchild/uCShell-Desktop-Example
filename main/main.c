@@ -36,11 +36,7 @@ int main(void)
         scanf("%c",&char_received);
         
        
-        //if the character receieved is not the delimeter then echo the character
-        // if(cli.charReceived != cli.delimeter || cli.charReceived != '[' || cli.charReceived != ']')
-        // {
-        //     printf("%c", char_received);
-        // }
+ 
         cli.charReceived = char_received;
         cli.parseChar(&cli);
         uCShell_run(&cli);
