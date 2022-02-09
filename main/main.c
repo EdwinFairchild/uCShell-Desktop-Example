@@ -8,8 +8,8 @@
  * 
  * 
  */
-#include "../uCShell/uCShell.h"
 #include "../uCShell/uCShell_Config.h"
+#include "../uCShell/uCShell.h"
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
@@ -23,7 +23,7 @@ int main(void)
     cli.prompt = "eddie>";
     cli.delimeter = '\r';
     cli.print = printf;
-    CL_cli_init(&cli, "UCShell:>", printf);
+    CL_cli_init(&cli, "uCShell:>", printf);
     cli.registerCommand("ok", ' ', cmd_ok_handler, "Prints \"ok\" if cli is ok",false);
     cli.registerCommand("edwina", ' ', cmd_ok_handler, "Prints \"ok\" if cli is ok",true);
     char char_received ;
