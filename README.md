@@ -6,8 +6,8 @@ specifically the uCShell source files.
 
 If using HTTPS clone using this command:
 
-`git clone https://github.com/EdwinFairchild/uCShell-Desktop-Example-.git --recurse-submodules`
+`git clone https://github.com/EdwinFairchild/uCShell-Desktop-Example.git --recurse-submodules`
 
 If using SSH clone with this command:
 
-`git clone ggit@github.com:EdwinFairchild/uCShell-Desktop-Example-.git --recurse-submodules`
+`git clone ggit@github.com:EdwinFairchild/uCShell-Desktop-Example.git --recurse-submodules`
