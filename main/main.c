@@ -20,6 +20,7 @@ void cmd_ok_handler(uint8_t num, char *values[]);
 
 int main(void)
 {
+    //TODO: limitations of windows implementation
     cli.prompt = "eddie>";
     cli.delimeter = '\r';
     cli.print = printf;
@@ -36,7 +37,7 @@ int main(void)
         scanf("%c",&char_received);
         
        
- 
+    
         cli.charReceived = char_received;
         cli.parseChar(&cli);
         uCShell_run(&cli);
