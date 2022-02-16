@@ -25,4 +25,4 @@ jobs:
 
       - name: Build
         run: |
-          bazel build ///main:uCShell-bin
+          bazel build //main:uCShell-bin
