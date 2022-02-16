@@ -1,3 +1,4 @@
+These commands must be run in the uCShell folder
 First, run a fetch to update all origin/<branch> refs to latest:
 
     git fetch --all
