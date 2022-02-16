@@ -1,0 +1,10 @@
+Using Bazel execute the follwing commands from the root directory:
+    bazel build //main:uCShell-bin
+    cd bazl-bin/main
+    ./uCShell-bin
+
+Using GCC execute the follwing commands from the root directory:
+    gcc main/main.c uCShell/uCShell.c -o uCShell-bin
+    ./uCShell-bin.exe
+
+ 
