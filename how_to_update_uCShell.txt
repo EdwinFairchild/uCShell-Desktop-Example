@@ -1,0 +1,8 @@
+First, run a fetch to update all origin/<branch> refs to latest:
+
+    git fetch --all
+
+Then:
+
+    git reset --hard origin/main
+
