@@ -14,7 +14,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-CL_cli_type cli;
+uCShell_type cli;
 //protoypes
 void cmd_ok_handler(uint8_t num, char *values[]);
 
