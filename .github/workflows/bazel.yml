@@ -25,4 +25,6 @@ jobs:
 
       - name: Build
         run: |
+          pwd
+          ls
           bazel build //main:uCShell-bin
