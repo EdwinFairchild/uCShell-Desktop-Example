@@ -17,17 +17,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout the code
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
 
       - name: Setup Bazelisk
         uses: bazelbuild/setup-bazelisk@v1
 
       - name: Build
         run: |
-          rm -rf uCShell 
-          git clone https://github.com/EdwinFairchild/uCShell-Desktop-Example.git --recurse-submodules
-          cp -r uCShell-Desktop-Example/uCShell uCShell
           bazel build //main:uCShell-bin
 #the above commands are a workaround because i dont know how to get github actions
 #to also check out my submodule
