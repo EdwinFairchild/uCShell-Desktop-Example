@@ -19,7 +19,7 @@ uCShell_type cli;
 void cmd_ok_handler(uint8_t num, char *values[]);
 
 int main(void)
-{
+{ASdAZSD
     //TODO: limitations of windows implementation
     cli.prompt = "eddie>";
     cli.delimeter = '\r';
