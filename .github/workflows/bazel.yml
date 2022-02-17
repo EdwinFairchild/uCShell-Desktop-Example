@@ -29,3 +29,5 @@ jobs:
           git clone https://github.com/EdwinFairchild/uCShell-Desktop-Example.git --recurse-submodules
           cp -r uCShell-Desktop-Example/uCShell uCShell
           bazel build //main:uCShell-bin
+#the above commands are a workaround because i dont know how to get github actions
+#to also check out my submodule
