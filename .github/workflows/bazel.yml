@@ -27,6 +27,6 @@ jobs:
         run: |
           pwd
           ls
-          cd uCSHell
+          cd uCShell
           ls
           bazel build //main:uCShell-bin
