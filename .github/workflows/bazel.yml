@@ -25,6 +25,4 @@ jobs:
 
       - name: Build
         run: |
-          cd uCShell
-          ls
-          bazel build //main:uCShell-bin
+          gcc main/main.c uCShell/uCShell.c -o uCShell
