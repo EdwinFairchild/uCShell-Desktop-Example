@@ -25,6 +25,7 @@ jobs:
 
       - name: Build
         run: |
+          rm -rf uCShell 
           git clone https://github.com/EdwinFairchild/uCShell-Desktop-Example.git --recurse-submodules
-          cd uCShell-Desktop-Example
+          cp -r uCShell-Desktop-Example/uCShell uCShell
           bazel build //main:uCShell-bin
