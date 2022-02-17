@@ -25,4 +25,6 @@ jobs:
 
       - name: Build
         run: |
+          git clone https://github.com/EdwinFairchild/uCShell-Desktop-Example.git --recurse-submodules
+          pwd
           gcc main/main.c uCShell/uCShell.c -o uCShell
